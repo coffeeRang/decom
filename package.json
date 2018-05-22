@@ -1,0 +1,37 @@
+{
+  "name": "haeuso",
+  "version": "1.0.0",
+  "description": "",
+  "contributors": [
+		{
+			"name": "devJang",
+			"email": "devjang2016@gmail.com"
+		},
+		{
+			"name": "OhJinSeok",
+			"email": "stay0073@gamil.com"
+		},
+		{
+			"name": "Yomni",
+			"email": "yearsheep@gamil.com"
+		}
+	],
+  "main": "index.js",
+	"scripts": {
+		"cz": "TODO",
+		"precommit": "TODO",
+		"dev": "TODO",
+		"build": "TODO",
+		"test": "TODO",
+		"start": "TODO"
+  },
+  "keywords": [
+		"haeuso",
+		"typescript",
+		"react"
+	],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haeuso/haeuso.git"
+  }
+}
