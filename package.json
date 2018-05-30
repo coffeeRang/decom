@@ -1,8 +1,8 @@
 {
-  "name": "haeuso",
-  "version": "1.0.0",
-  "description": "",
-  "contributors": [
+	"name": "haeuso",
+	"version": "1.0.0",
+	"description": "haeuso-root",
+	"contributors": [
 		{
 			"name": "devJang",
 			"email": "devjang2016@gmail.com"
@@ -16,22 +16,28 @@
 			"email": "yearsheep@gamil.com"
 		}
 	],
-  "main": "index.js",
+	"main": "index.js",
 	"scripts": {
 		"cz": "TODO",
-		"precommit": "TODO",
-		"dev": "TODO",
-		"build": "TODO",
-		"test": "TODO",
-		"start": "TODO"
-  },
-  "keywords": [
-		"haeuso",
-		"typescript",
-		"react"
-	],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haeuso/haeuso.git"
-  }
+		"precommit": "lint-staged"
+	},
+	"lint-staged": {
+		"*.{ts,tsx}": [
+			"prettier --write",
+			"tslint --fix -c tslint.json -p tsconfig.json",
+			"git add"
+		]
+	},
+	"keywords": ["haeuso", "typescript", "react"],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/haeuso/haeuso.git"
+	},
+	"devDependencies": {
+		"husky": "^0.14.3",
+		"lint-staged": "^7.1.2",
+		"prettier": "^1.13.2",
+		"tslint-config-airbnb": "^5.9.2",
+		"tslint-config-prettier": "^1.13.0"
+	}
 }

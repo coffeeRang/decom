@@ -1,0 +1,11 @@
+{
+  "name": "haeuso-front-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": { 
+		"dev": "TODO",
+		"build": "TODO",
+		"test": "TODO",
+		"start": "TODO"
+  }
+}
