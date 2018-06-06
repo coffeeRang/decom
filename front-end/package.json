@@ -1,11 +1,39 @@
 {
-  "name": "haeuso-front-end",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": { 
+	"name": "haeuso-front-end",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
 		"dev": "TODO",
 		"build": "TODO",
 		"test": "TODO",
 		"start": "TODO"
-  }
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"moment": "^2.22.2",
+		"react": "^16.4.0",
+		"react-dom": "^16.4.0",
+		"react-redux": "^5.0.7",
+		"react-router-dom": "^4.2.2",
+		"redux": "^4.0.0"
+	},
+	"devDependencies": {
+		"@types/jest": "^23.0.0",
+		"@types/react": "^16.3.16",
+		"@types/react-dom": "^16.0.6",
+		"@types/react-router-dom": "^4.2.7",
+		"autoprefixer": "^8.6.0",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"file-loader": "^1.1.11",
+		"html-webpack-plugin": "^3.2.0",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^7.0.3",
+		"style-loader": "^0.21.0",
+		"ts-jest": "^22.4.6",
+		"ts-loader": "^4.3.1",
+		"typescript": "^2.9.1",
+		"url-loader": "^1.0.1",
+		"webpack": "^4.11.1",
+		"webpack-dev-server": "^3.1.4"
+	}
 }
