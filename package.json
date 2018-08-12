@@ -10,11 +10,19 @@
 		{
 			"name": "Yomni",
 			"email": "yearsheep@gamil.com"
+		},
+		{
+			"name": "l2jong",
+			"email": "leedjlee@naver.com"
 		}
 	],
 	"main": "index.js",
 	"scripts": {
 		"cz": "TODO",
+		"dev": "TODO",
+		"build": "TODO",
+		"test": "TODO",
+		"start": "node ./bin/www",
 		"precommit": "lint-staged"
 	},
 	"lint-staged": {
@@ -36,14 +44,23 @@
 	"dependencies": {
 		"axios": "^0.18.0",
 		"babel-polyfill": "^6.26.0",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "graphql": "~0.13.2",
 		"immutable": "^3.8.2",
+    "jade": "~1.11.0",
 		"moment": "^2.22.2",
+    "mongoose": "~5.2.7",
+    "morgan": "~1.7.0",
 		"react": "^16.4.2",
 		"react-dom": "^16.4.2",
 		"react-redux": "^5.0.7",
 		"react-router-dom": "^4.3.1",
 		"redux": "^4.0.0",
 		"redux-saga": "^0.16.0",
+    "serve-favicon": "~2.3.2",
 		"styled-components": "^3.4.2"
 	},
 	"devDependencies": {
