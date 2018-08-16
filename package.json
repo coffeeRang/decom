@@ -9,6 +9,7 @@
 		"precommit": "lint-staged"
 	},
 	"lint-staged": {
+		"verbose": true,
 		"*.{js,jsx}": [
 			"eslint --fix src",
 			"prettier --write",
