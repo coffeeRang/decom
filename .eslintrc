@@ -1,6 +1,13 @@
 {
 	"parser": "babel-eslint",
-	"extends": ["airbnb", "plugin:prettier/recommended", "prettier", "prettier/flowtype", "prettier/react"],
+	"extends": [
+		"airbnb",
+		"eslint:recommended",
+		"plugin:prettier/recommended",
+		"prettier",
+		"prettier/flowtype",
+		"prettier/react"
+	],
 	"plugins": ["react", "jsx-a11y", "import", "prettier"],
 	"rules": {
 		"no-unused-vars": 0,
