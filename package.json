@@ -4,12 +4,13 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "TODO",
+		"eslint": "eslint . --cache --fix",
 		"build": "webpack --mode production --config config/webpack.config.js",
 		"start": "webpack-dev-server --open --mode development --config config/webpack.config.js",
 		"precommit": "lint-staged"
 	},
 	"lint-staged": {
-		"*.{js,jsx}": [
+		"*.js": [
 			"eslint --fix src",
 			"prettier --write",
 			"git add"
@@ -44,8 +45,9 @@
 		"babel-preset-env": "^1.7.0",
 		"babel-preset-react": "^6.24.1",
 		"css-loader": "^1.0.0",
-		"enzyme": "^3.4.2",
+		"enzyme": "^3.4.4",
 		"enzyme-adapter-react-16": "^1.2.0",
+		"eslint": "^5.4.0",
 		"eslint-config-airbnb": "^17.1.0",
 		"eslint-config-prettier": "^3.0.1",
 		"eslint-plugin-import": "^2.14.0",

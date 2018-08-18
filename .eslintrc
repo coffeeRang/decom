@@ -1,11 +1,12 @@
 {
 	"parser": "babel-eslint",
-	"extends": ["airbnb", "plugin:prettier/recommended"],
-	"plugins": ["react", "jsx-a11y", "import"],
+	"extends": ["airbnb", "plugin:prettier/recommended", "prettier", "prettier/flowtype", "prettier/react"],
+	"plugins": ["react", "jsx-a11y", "import", "prettier"],
 	"rules": {
 		"no-unused-vars": 0,
 		"react/jsx-filename-extension": 0,
 		"quotes": ["error", "single", { "avoidEscape": true }],
-		"indent": ["error", 2]
+		"indent": ["error", 2],
+		"prettier/prettier": "error"
 	}
 }
