@@ -17,12 +17,14 @@ module.exports = {
 			},
 			{
 				enforce: 'pre',
-				test: /\.js?$/,
-				use: 'eslint-loader',
-				exclude: /node_modules/,
-				options: {
-					fix: true,
+				test: /\.(js|jsx)?$/,
+				use: {
+					loader: 'eslint-loader',
+					options: {
+						configFile: './.eslintrc',
+					},
 				},
+				exclude: /node_modules/,
 			},
 			{
 				test: /\.css$/,
