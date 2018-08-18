@@ -8,11 +8,11 @@ import { Test2 } from './components/Test2';
 export default class App extends Component {
 	render() {
 		return (
-      <Router>
-        <div className="app">
+			<Router>
+				<div className="app">
 					<div className="container">
 						<ul>
-              <li>
+							<li>
 								<Link to="/test1">Test1</Link>
 							</li>
 							<li>
@@ -24,6 +24,7 @@ export default class App extends Component {
 						<Route exact path="/" component={Home} />
 						<Route path="/test1" component={Test1} />
 						<Route path="/test2" component={Test2} />
+						<Route path="/test3" component={Test3} />
 					</Switch>
 				</div>
 			</Router>
