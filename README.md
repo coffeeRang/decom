@@ -21,9 +21,9 @@ TODO
 
 ```json
 {
+  "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
-  "editor.formatOnSave": true,
   "eslint.enable": true,
   "prettier.eslintIntegration": true
 }
